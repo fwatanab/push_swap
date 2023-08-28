@@ -31,7 +31,7 @@ clean:
 	$(RM) $(OBJS)
 	$(MAKE) -C $(LIBFTDIR) clean
 
-fclean: clean
+fclean:
 	$(RM) $(NAME)
 	$(MAKE) -C $(LIBFTDIR) fclean
 
